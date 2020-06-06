@@ -1,0 +1,20 @@
+{
+    "name": "ebcms/psr3-delegate",
+    "description": "php psr3-delegate",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ebcms",
+            "email": "1540847821@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ebcms\\": "src/"
+        }
+    },
+    "require": {
+        "psr/log": "^1.1"
+    }
+}
