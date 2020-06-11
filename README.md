@@ -11,7 +11,7 @@ composer require ebcms/psr3-delegate
 ## Usage
 
 ``` php
-$logger = new \Ebcms\Logger\Delegate();
+$logger = new \Ebcms\LoggerDelegate();
 
 $null_logger= new \Psr\Log\NullLogger();
 $logger->addLogger($null_logger);

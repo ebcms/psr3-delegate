@@ -1,12 +1,13 @@
-<?php
-namespace Ebcms\Logger;
+<?php declare (strict_types = 1);
+
+namespace Ebcms;
 
 use Psr\Log\InvalidArgumentException;
 use Psr\Log\LoggerInterface;
 use Psr\Log\LoggerTrait;
 use Psr\Log\LogLevel;
 
-class Delegate implements LoggerInterface
+class LoggerDelegate implements LoggerInterface
 {
     use LoggerTrait;
 
